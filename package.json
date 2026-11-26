@@ -1,0 +1,8 @@
+{
+  "name": "icon-stars",
+  "version": "96.0.0",
+  "private": true,
+  "main": "icon-stars.js",
+  "scripts": { "start": "node icon-stars.js" },
+  "dependencies": { "socket.io": "^4.7.5" }
+}
