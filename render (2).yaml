@@ -1,0 +1,14 @@
+# ICON STARS - Render blueprint (free web service)
+# Upload to GitHub together with: icon-stars.js and package.json
+services:
+  - type: web
+    name: icon-stars
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
